@@ -3,7 +3,7 @@
 Express.js API Lab
 Overview
 
-Welcome to the Express.js API Lab! In this lab, you'll learn how to build a simple RESTful API using Express.js. You will create an API with basic GET and POST routes, which will allow you to retrieve and send data in JSON format.
+Hey CUNY Tech Prep students! Welcome to our next lesson on Express.js using this API Lab! In this lab, you'll learn how to build a simple RESTful API using Express.js. You will create an API with basic GET and POST routes, which will allow you to retrieve and send data in JSON format.
 
 By the end of this lab, you'll:
 
