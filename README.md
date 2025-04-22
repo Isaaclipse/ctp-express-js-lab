@@ -1,4 +1,4 @@
-# CTP EXPRESS API Lab
+# CTP Express.js API Lab
 
 Express.js API Lab
 Overview
