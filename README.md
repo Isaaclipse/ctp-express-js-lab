@@ -92,6 +92,7 @@ The API will respond with the new item and a status code of 201 indicating that 
         }
 
 **Using cURL:**
+
  • **GET** Request:
 
 ````curl http://localhost:3000/api/items````
