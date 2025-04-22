@@ -26,8 +26,8 @@ Before we dive into building the API, make sure you have the following prerequis
 
 First, clone this repository to your local machine:
 
-    git clone https://github.com/Isaaclipse/ctp-project/edit/main/README.md
-    cd express-api-lab
+    git clone https://github.com/Isaaclipse/ctp-express-js-lab
+    cd ctp-express-js-lab
 
 **Step 2: Install Dependencies**
 
