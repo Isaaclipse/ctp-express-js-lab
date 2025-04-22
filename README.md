@@ -99,7 +99,7 @@ The API will respond with the new item and a status code of 201 indicating that 
 
  • **POST** Request: 
 
-    ````curl -X POST http://localhost:3000/api/items -H "Content-Type: application/json" -d '{"id":3, "name":"New Item"}'```
+    ````curl -X POST http://localhost:3000/api/items -H "Content-Type: application/json" -d '{"id":3, "name":"New Item"}'````
 
 **Understanding the Code**
 
