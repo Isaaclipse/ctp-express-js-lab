@@ -7,20 +7,20 @@ Welcome to the Express.js API Lab! In this lab, you'll learn how to build a simp
 
 By the end of this lab, you'll:
 
-    Understand how to set up an Express.js server.
+1. Understand how to set up an Express.js server.
 
-    Be able to create and test RESTful API routes (GET, POST).
+2. Be able to create and test RESTful API routes (GET, POST).
 
-    Get hands-on experience with the software development life cycle (SDLC) and how an API fits into the broader context of full-stack applications.
+3. Get hands-on experience with the software development life cycle (SDLC) and how an API fits into the broader context of full-stack applications.
 
 This lab will also introduce you to how backend APIs work and how they interact with frontend applications, which is crucial as you move forward with your full-stack projects.
 Getting Started
 
 Before we dive into building the API, make sure you have the following prerequisites installed:
 
-    Node.js and npm (Node Package Manager)
+1. Node.js and npm (Node Package Manager)
 
-    Postman or cURL (to test your API routes)
+2. Postman or cURL (to test your API routes)
 
 Step 1: Clone the repository
 
