@@ -1,5 +1,4 @@
-# ctp-project
-CTP Webdev project
+# CTP API Lab
 
 Express.js API Lab
 Overview
