@@ -1,4 +1,4 @@
-# CTP Express.js API Lab
+# CUNY Tech Prep Web Dev Instructor Express.js API Lab
 
 Express.js API Lab
 Overview
