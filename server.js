@@ -21,7 +21,6 @@ try {
   ];
 }
 
-
 // GET route to fetch all items
 app.get('/api/items', (req, res) => {
   res.json(items);
@@ -32,7 +31,7 @@ app.post('/api/items', (req, res) => {
   const newItem = req.body;
 
   // Add the new item to the in-memory array
-  items.push(newItem); // ✅ Use the correct variable
+  items.push(newItem); // Use the correct variable
 
   // Write the updated array back to data.json
   fs.writeFileSync('./data.json', JSON.stringify(items, null, 2));
@@ -40,7 +39,6 @@ app.post('/api/items', (req, res) => {
   // Send the response
   res.status(201).json(newItem);
 });
-
 
 // Start the server
 app.listen(PORT, () => {
