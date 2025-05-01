@@ -1,9 +1,8 @@
 # CUNY Tech Prep Web Dev Instructor Express.js API Lab
 
-Express.js API Lab
-Overview
+Hey CUNY Tech Prep students! Welcome to our next lesson on Express.js using this API Lab! 
 
-Hey CUNY Tech Prep students! Welcome to our next lesson on Express.js using this API Lab! In this lab, you'll learn how to build a simple RESTful API using Express.js. You will create an API with basic GET and POST routes, which will allow you to retrieve and send data in JSON format.
+In this lab, you'll learn how to build a simple RESTful API using Express.js. You will create an API with basic GET and POST routes, which will allow you to retrieve and send data in JSON format.
 
 By the end of this lab, you'll:
 
@@ -14,7 +13,8 @@ By the end of this lab, you'll:
 3. Get hands-on experience with the software development life cycle (SDLC) and how an API fits into the broader context of full-stack applications.
 
 This lab will also introduce you to how backend APIs work and how they interact with frontend applications, which is crucial as you move forward with your full-stack projects.
-Getting Started
+
+**Getting Started**
 
 Before we dive into building the API, make sure you have the following prerequisites installed:
 
@@ -42,6 +42,7 @@ Now that the dependencies are installed, start the Express.js server by running:
     node server.js
 
 Your server should now be running on ````http://localhost:3000.````
+
 ***API Routes***
 **GET Request - Retrieve all items**
 
@@ -105,11 +106,13 @@ The API will respond with the new item and a status code of 201 indicating that 
 
 Check out the code in the ````server.js```` file to see how the Express.js routes are set up:
 
- • GET /api/items: Retrieves all the items from the mock data (stored in data.json).
+• GET /api/items: Retrieves all items by reading from the data.json file (if available), or from an in-memory default array. This ensures the server always starts with existing saved data if present.
 
- • POST /api/items: Adds a new item to the mock data.
+• POST /api/items: Adds a new item to the in-memory array and writes the updated array back to data.json to persist the data across server restarts.
 
-We use the built-in ````express.json()```` middleware to handle JSON data sent in POST requests, making it easy to process incoming request bodies.
+We use the built-in express.json() middleware to handle JSON data sent in POST requests, making it easy to process incoming request bodies.
+
+Additionally, the server attempts to load data from data.json on startup. If the file doesn't exist or contains invalid JSON, it falls back to default mock data. This demonstrates a basic approach to persistence using the file system before moving to a database like MongoDB.
 
 **Software Development Life Cycle (SDLC) and API Design**
 
